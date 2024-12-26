@@ -1,0 +1,6 @@
+Formula Field ({!fmUrlLink}) = LEFT({!$Api.Partner_Server_URL_600},FIND('/service',{!$Api.Partner_Server_URL_600})) 
+
+Created Record Id ={!Create_Case_Record}
+
+Click Here = {!fmUrlLink}{!Create_Case_Record}
+ 
