@@ -1,0 +1,1 @@
+LEFT($Flow.FaultMessage, FIND("You can look up ExceptionCode", $Flow.FaultMessage) - 1)    // Dynamic Error Message
